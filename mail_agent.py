@@ -27,13 +27,13 @@ def mail_tool(input_data: dict) -> str:
 
     SMTP_SERVER = "smtp.gmail.com"
     SMTP_PORT = 587
-    USERNAME = "kizilbaha26@gmail.com"
-    PASSWORD = "ymev tfbe opbx orss"
+    USERNAME = ""
+    PASSWORD = ""
 
     msg = MIMEMultipart()
     msg["Subject"] = "DeepSeek Analysis Report"
     msg["From"] = USERNAME
-    msg["To"] = "kizilbaha26@gmail.com"
+    msg["To"] = ""
     msg.attach(MIMEText(email_body, "plain"))
 
     if image_file and os.path.isfile(image_file):
