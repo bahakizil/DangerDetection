@@ -1,0 +1,8 @@
+langchain
+openai
+ultralytics
+opencv-python
+transformers
+accelerate
+torch
+torchvision
