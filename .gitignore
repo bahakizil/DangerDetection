@@ -1,0 +1,5 @@
+*.pt
+*.h5
+*.mp4
+uploads/
+detections/
