@@ -18,7 +18,7 @@ This repository includes a sample `analysis_tool` that:
    - Saves the final email-like text to `analysis.txt`.
 
 2. **Mail Sending (Future Step)**:
-   - Another agent (or Python code) can read `analysis.txt` and send it to the required email address (e.g. `kizilbaha26@gmail.com`).
+   - Another agent (or Python code) can read `analysis.txt` and send it to the required email address.
 
 ## Requirements
 
